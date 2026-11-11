@@ -1,0 +1,15 @@
+name: ForceNRC
+version: '${version}'
+
+main: dev.construkter.forceNRC.ForceNRC
+api-version: '26.3'
+load: POSTWORLD
+
+commands:
+  ec:
+    description: Exklusiver Befehl für NRC um die Ender Chest überall zu öffnen
+    aliases:
+      - enderchest
+
+  nrc:
+    description: Zeigt den NRC Hinweis
