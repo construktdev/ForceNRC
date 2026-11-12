@@ -14,7 +14,7 @@ public class EcCommand implements CommandExecutor {
         Player player = (Player) sender;
 
         if (player.getClientBrandName() == null || !player.getClientBrandName().startsWith("nrc")) {
-            Component msg = Component.text("Dieser Vefehl ist nur für Spieler mit Norisk Client verfügbar!", NamedTextColor.RED);
+            Component msg = Component.text("Dieser Befehl ist nur für Spieler mit Norisk Client verfügbar!", NamedTextColor.RED);
 
             player.sendMessage(msg);
 
