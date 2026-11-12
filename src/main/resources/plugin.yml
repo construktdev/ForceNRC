@@ -13,3 +13,8 @@ commands:
 
   nrc:
     description: Zeigt den NRC Hinweis
+
+  anvil:
+    description: Exklusiver Befehl für NRC um den Amboss überall zu öffnen
+    aliases:
+      - amboss
