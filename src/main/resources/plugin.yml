@@ -18,3 +18,13 @@ commands:
     description: Exklusiver Befehl für NRC um den Amboss überall zu öffnen
     aliases:
       - amboss
+
+  me:
+    description: Schaut ob du mit NRC spielst
+    aliases:
+      - status
+
+  craft:
+    description: Exklusiver Befehl für NRC um die Werkbank überall zu öffnen
+    aliases:
+      - workbench

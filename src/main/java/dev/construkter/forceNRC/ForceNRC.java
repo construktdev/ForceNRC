@@ -1,7 +1,6 @@
 package dev.construkter.forceNRC;
 
-import dev.construkter.forceNRC.commands.AnvilCommand;
-import dev.construkter.forceNRC.commands.EcCommand;
+import dev.construkter.forceNRC.commands.*;
 import dev.construkter.forceNRC.listeners.JoinListener;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.PluginCommand;
@@ -16,6 +15,9 @@ public final class ForceNRC extends JavaPlugin {
 
         addCommand("ec", new EcCommand());
         addCommand("anvil", new AnvilCommand());
+        addCommand("nrc", new NRCCommand());
+        addCommand("me", new MeCommand());
+        addCommand("craft", new CraftCommand());
     }
 
     @Override
